@@ -1,0 +1,20 @@
+{
+  "info": {
+    "name": "Conversational API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Send Intent",
+      "request": {
+        "method": "POST",
+        "header": [{"key":"Content-Type","value":"application/json"}],
+        "url": "http://localhost:3001/nlu/intent",
+        "body": {
+          "mode": "raw",
+          "raw": "{\"utterance\": \"hello\"}"
+        }
+      }
+    }
+  ]
+}

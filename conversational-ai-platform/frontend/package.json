@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "serve dist",
+    "dev": "ts-node src/main.tsx",
+    "test": "echo 'no tests'"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.44",
+    "@types/react-dom": "^18.2.17",
+    "typescript": "^5.4.3",
+    "serve": "^14.2.0"
+  }
+}

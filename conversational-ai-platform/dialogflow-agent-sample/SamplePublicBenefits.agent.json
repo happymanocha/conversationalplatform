@@ -1,0 +1,12 @@
+{
+  "displayName": "SamplePublicBenefits",
+  "defaultLanguageCode": "en",
+  "intents": [
+    { "displayName": "unemployment_info" },
+    { "displayName": "pension_eligibility" },
+    { "displayName": "disability_support" },
+    { "displayName": "child_support_query" },
+    { "displayName": "wrong_number" },
+    { "displayName": "change_topic" }
+  ]
+}

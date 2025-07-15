@@ -1,0 +1,11 @@
+---
+version: 1
+start:
+  - call_incoming
+call_incoming:
+  description: "Sample entry point"
+  actions:
+    - data_action: send_to_backend
+send_to_backend:
+  request:
+    url: "http://backend:3001/nlu/intent"
